@@ -9,7 +9,7 @@ class Caneta {
 
     function rabiscar() {
         if ($this->tampada) {
-            echo "<p>Erro! Não posso rabiscar!</p>";
+            echo "<p>ERRO! Não posso rabiscar!</p>";
         } else {
             echo "<p>Estou rabiscando...</p>";
         }
